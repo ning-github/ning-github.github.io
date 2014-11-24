@@ -305,6 +305,36 @@ hr	{
 		height:100%;
 	}
 
+
+
+
+
+
+.footer {
+  border-top: 1px solid #e5e5e5;
+  background-color: #D5D5D5;
+  height: 100px;
+  float:bottom;
+}
+
+.footerContainer  {
+	line-height: 150px;
+	display: flex;
+}
+
+.footerContainer div  {
+	width: 50%;
+	text-align: center;
+}
+
+.footerContainer img  {
+	height: 32px;
+}
+
+
+
+
+
 	.footerContainer  {
 		display:block;
 	}
