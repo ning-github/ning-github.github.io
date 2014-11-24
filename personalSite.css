@@ -305,9 +305,9 @@ hr	{
 		height:100%;
 	}
 
-	.footerContainer div  {
-		background-color:green;
-		width:50%;
+	.footerContainer  {
+		background-color: green;
+		width:45%;
 	}
 }
 
