@@ -308,7 +308,7 @@ hr	{
 	.footerContainer>div {
 		background-color: green;
 		width:50%;
-		display:inline-flex;
+		display:block;
 	}
 }
 
