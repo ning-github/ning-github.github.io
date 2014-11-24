@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Ning Xia</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="bootstrap.css">
+
+    <!-- raleway font from google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:100,200,300,400' rel='stylesheet' type='text/css'>
+
+    <!-- source sans pro from google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+
+    <!-- personal css stylesheet -->
+    <link rel="stylesheet" type="text/css" href="personalSite.css">
+    
+  </head>
+
+  <body>
+
+<!-- ////    NAV BAR    //// -->
+
+    <nav role="navigation" class="navbar navbar-fixed-top navbar-default nb">
+
+       <div class="navbar-header">
+          <!-- the notepad button, when testing responsiveness -->
+           <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+               <span class="sr-only">Toggle navigation</span>
+               <!-- each span is a horizonal line in the notepad button -->
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+           </button>
+       </div>
+
+
+       <!-- Collection of nav links and other content for toggling -->
+       <div id="navbarCollapse" class="collapse navbar-collapse">
+           <ul class="nav navbar-nav">
+               <!-- <li class="active"><a href="#">Home</a></li> -->
+               <li><a href="#home">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#portfolio">Portfolio</a></li>
+           </ul>
+
+           <ul class="nav navbar-nav navbar-right" style="padding-right: 2%">
+               <li><a href="#contact">Contact</a></li>
+           </ul>
+
+       </div>
+    </nav>
+
+
+<!-- HOME PAGE -->
+
+    <div class="section pageFrame" id="home">
+
+      <div class="content">
+        <span>Ning Xia</span>
+        <br>
+        <p>Aspiring developer, full-time learner</p>
+        <hr>
+      </div>
+
+    </div>
+
+
+<!-- ABOUT PAGE -->
+
+    <div class="section pageFrame" id="about">
+      <div class="container content">
+
+        <h1 class="center thisHeading">About</h1>
+        <hr>
+
+        <div class="row-fluid photoContainer">
+
+            <div id="holding">  <!-- Holds the image div(port) and autobio div(para) -->
+
+            <div id="photo">
+              <img src="port.jpg">
+            </div>
+
+            <div id="para">
+              <p>After graduating with my Bachelor's in Neurobiology, Physiology, and Behavior from UC Davis, I worked at the UCSF Cancer Center, a world leader in treatment and research, and then at 23andMe, a rising startup offering the unique experience of personal genetic testing delivered through <strong>online reports and website features</strong>.
+              </p>
+
+              <p>
+              There, with everyday exposure to servicing a web product&#8212from how it is created, implemented, and updated&#8212I discovered and grew my <strong>passion for programming</strong>. From that point on, whether in classroom courses, self-teaching, or personal projects, my waking hours have been devoted to learning to become a developer. I have loved every minute of it (even those script-stopping. program-breaking, error-debugging moments) and have no intention of stopping.
+              </p>
+
+              <p>In addition to college coursework in C++, I have completed the languages tracks on Codecademy. I am currently <strong>further teaching myself</strong> through various web resources, such as <i>Eloquent Javascript</i>, Coderbyte, CodeEval, and RubyMonk. I enjoy learning, playing with, and using development tools and environments, such as with git commands and Sublime shortcuts, often tapping StackOverflow and Youtube as helpful resources.</p>
+            </div>
+
+          </div>  <!-- end holding div -->
+        </div>
+      </div>
+    </div>  <!-- end page3 -->
+
+
+<!-- PORTFOLIO PAGE -->
+
+    <div class="section pageFrame" id="portfolio">
+      <div class="container content">
+
+        <h1 class="center thisHeading">Portfolio</h1>
+        <hr>
+
+        <div class="row-fluid">
+
+            <div>
+              <p>*IN PROGRESS*</p>
+
+              <p>Check out my <a href="https://github.com/ning-github" target="_blank">Github</a> for projects I've built and am currently working on.</p>
+
+              <p>Also, <a href="view-source:http://www.ning-xia.com/" target="_blank">the ground you're walking on.</a></p>
+            </div>
+        </div>
+      </div>
+    </div>  <!-- end page3 -->
+
+
+<!-- CONTACT PAGE -->
+
+    <div class="section pageFrame lastPage" id="contact">
+      <div class="container content lastPage">
+
+        <h1 class="center thisHeading">Contact Me</h1>
+        <hr>
+
+        <div class="row-fluid">
+
+          <div>
+            <p> Shoot me an email at <a href="mailto:nxiamail@gmail.com">nxiamail@gmail.com</a> or reach me at any of the below outlets</p>
+          </div>
+
+        </div>
+      </div>
+    </div>      
+
+      <!-- divide between contact and footer -->
+
+    <footer class="footer">
+      <div class="container footerContainer">
+
+          
+          <div><a href="https://twitter.com/theningxia" target="_blank">
+            <img src="Twitter_logo_blue.png">
+          </a></div>
+
+          <div><a href="https://github.com/ning-github" target="_blank">
+            <img src="GitHub_Logo.png">
+          </a></div>
+
+      </div>
+    </footer> <!-- end page4 -->
+
+  </body>
+
+  <!-- jQuery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+  <!-- bootstrap -->
+  <script src="bootstrap.min.js"></script>
+
+  <!-- personal js file -->
+  <script src="personalSite.js"></script>
+
+</html>
