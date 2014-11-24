@@ -306,13 +306,13 @@ hr	{
 	}
 
 	.footerContainer  {
-		display:inline-block;
+		display:block;
 	}
 
 	.footerContainer>div {
 		background-color: #D5D5D5;
 		width:50%;
-		display:inline-block;
+		display:;
 	}
 }
 
