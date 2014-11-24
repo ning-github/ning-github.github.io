@@ -305,10 +305,14 @@ hr	{
 		height:100%;
 	}
 
+	.footerContainer  {
+		display:inline-block;
+	}
+
 	.footerContainer>div {
-		background-color: green;
-		width:100%;
-		display:block;
+		background-color: #D5D5D5;
+		width:50%;
+		display:inline-block;
 	}
 }
 
