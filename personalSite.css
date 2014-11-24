@@ -305,14 +305,14 @@ hr	{
 		height:100%;
 	}
 
-	.footer  {
-		display:inline-block;
+	.footerContainer  {
+		display: block;
 	}
 
 	.footerContainer>div {
-		background-color: green;
 		width:50%;
 		display:inline-block;
+		float:left;
 	}
 
 
