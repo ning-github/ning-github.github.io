@@ -1,0 +1,134 @@
+.gameboard	{
+	background-color:yellow;
+	color:green;
+	width:350px;
+	padding-top:2px;
+	padding-left:10px;
+	padding-bottom:10px;
+	padding-right:10px;
+}
+
+.gameboard div	{
+	background-color:#CBC7C7;
+	border-radius: 50%;
+	height:50px;
+	width:50px;
+	position: relative;
+	text-align: center;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.dropPanel	{
+	width:350px;
+	background-color:lavender;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+.dropPanel div	{
+	position:relative;
+	display:inline-block;
+	background-color: red;
+
+
+/* for adding an arrow image later on. may eventually use bord color to indicate turn*/
+
+/*	background-image: url("http://upload.wikimedia.org/wikipedia/commons/6/6e/ArrowPointingDown.jpg");
+	background-size: 50px 50px;*/
+
+
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	height:50px;
+	width:50px;
+	border-radius:50%;
+	color:black;
+	text-align:center;
+
+	cursor:pointer;
+}
+
+p  {
+	color:white;
+/*	height:50px;*/
+	width:50px;/*
+	border-radius:50%;*/
+	display:inline-block;
+}
+
+.newGamePanel	{
+	font-family: futura;
+	font-size: 25px;
+	text-align: center;
+	width:350px;
+	display:inline-block;
+	background-color:purple;
+	color:white;
+	height:50px;
+
+	line-height: 50px;
+	font-weight: bold;
+
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:2px;
+	padding-bottom:2px;
+	cursor: pointer;
+}
+
+.redWins	{
+	color:red;
+	font-family: futura;
+	font-size:30px;
+	text-align: center;
+	width:350px;
+	display:inline-block;
+	background-color:lavender;
+	height:50px;
+
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:2px;
+	padding-bottom:2px;
+
+}
+
+.blueWins	{
+	color:blue;
+
+	font-family: futura;
+	font-size:30px;
+	text-align: center;
+	width:350px;
+	display:inline-block;
+	background-color:lavender;
+	height:50px;
+
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:2px;
+	padding-bottom:2px;
+
+}
+
+.tieGame	{
+	font-family: futura;
+	font-size:30px;
+	text-align: center;
+	width:350px;
+	display:inline-block;
+	background-color:lavender;
+	color:black;
+	height:50px;
+
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:2px;
+	padding-bottom:2px;
+
+}
+
+
