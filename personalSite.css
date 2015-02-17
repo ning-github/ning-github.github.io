@@ -176,6 +176,9 @@ hr	{
 .footerContainer  {
 	line-height: 150px;
 	display: flex;
+
+	/*Safari compatibiltiy*/
+	display: -webkit-flex
 }
 
 .footerContainer div  {
@@ -326,6 +329,9 @@ hr	{
 	.footerContainer  {
 		line-height: 90px;
 		display: flex;
+
+		/*Safari compatibiltiy*/
+		display: -webkit-flex;
 	}
 
 	#para  {
